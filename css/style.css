@@ -1,3 +1,11 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Lato', sans-serif;
+}
+
 .navbar {
     background-color: #2C3E50;
     font-weight: 700;
@@ -16,6 +24,10 @@
     font-size: 1em;
 }
 
+main {
+    padding-top: 60px;
+}
+
 .primary-colors {
     background-color: #1ABC9C;
     color: #FFF;
@@ -27,20 +39,60 @@
     width: 200px;
 }
 
-.text-centered {
-    text-align: center;
-}
-
 h1 {
-    font-size: 60px;
+    font-size: 44px;
+    line-height: 56px;
     font-weight: 700;
 }
 
 div.col-xs-12 p {
-    font-size: 40px;
-    padding-bottom: 20px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
 }
 
-div.col-xs-12 p:last-child {
-    font-size: 25px;
+.col-xs-12.text-center {
+    padding-bottom: 100px;
+}
+
+.star::before {
+    content: '';
+    width: 100px;
+    height: 3px;
+    border-radius: 2px;
+    display: inline-block;
+    background-color: #2C3E50;
+    vertical-align: middle;
+    margin: 0 5px;
+}
+
+.primary-colors .star::before,
+.primary-colors .star::after {
+    background-color: #FFF;
+}
+
+.fa-star {
+    vertical-align: middle;
+}
+
+.star::after {
+    content: '';
+    width: 100px;
+    height: 3px;
+    border-radius: 2px;
+    display: inline-block;
+    background-color: #2C3E50;
+    vertical-align: middle;
+    margin: 0 5px;
+}
+
+.star {
+    margin-bottom: 20px;
+}
+
+
+@media screen and (min-width: 992px) {
+    h1 {
+        font-size: 64px;
+    }
 }
