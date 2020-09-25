@@ -6,25 +6,48 @@ h1, h2, h3, h4, h5, h6, p {
     font-family: 'Lato', sans-serif;
 }
 
-.navbar {
+/* navbar */
+.navbar.navbar-default.navbar-fixed-top {
     background-color: #2C3E50;
     font-weight: 700;
-    padding: 20px 0;
+    padding: 16px 0;
+    border: 0;
 }
 
-.navbar.navbar-default.navbar-fixed-top a {
+.navbar.navbar-default.navbar-fixed-top a,
+.menu.text-uppercase {
     color: #FFF;
+    font-weight: 700;
 }
 
-.navbar-brand {
-    font-size: 1.5em;
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFF;
+}
+
+.navbar-default .navbar-toggle {
+    background-color: #1abc9c;
+    border: 0;
+}
+
+.navbar-default .navbar-toggle:hover{
+    background-color: #148f77;
+    cursor: pointer;
+}
+
+.hamburger-menu, .menu.text-uppercase {
+    display: inline-block;
+    color: white;
+    font-weight: 700;
+    font-size: 12px;
+    vertical-align: middle;
 }
 
 .navbar-right a {
-    font-size: 1em;
+    font-size: 16;
 }
-
+/* main */
 main {
+    width: 100%;
     padding-top: 60px;
 }
 
@@ -33,6 +56,7 @@ main {
     color: #FFF;
 }
 
+/* section start */
 .avatar {
     padding-top: 100px;
     padding-bottom: 30px;
