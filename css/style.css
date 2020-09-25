@@ -111,9 +111,71 @@ div.col-xs-12 p {
 }
 
 .star {
+    padding: 30px;
     margin-bottom: 20px;
 }
 
+/* portfolio */
+
+
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 100px;
+}
+
+
+.secondary-colors {
+    color: #2c3e50;
+}
+
+.img-rounded.img-responsive.center-block {
+    max-width: 312px;
+    vertical-align: middle;
+}
+
+.img-container {
+    position: relative;
+    max-width: 312px;
+    margin: auto;
+}
+
+.img-rounded.img-responsive.center-block {
+    margin-bottom: 48px;
+}
+
+.big-plus {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+    border-radius: 5px;
+    background-color: rgba(26, 188, 156, 0.9);
+}
+
+.big-plus i {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.img-container:hover .big-plus {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.container.text-center {
+    margin-bottom: 48px;
+}
 
 @media screen and (min-width: 992px) {
     h1 {
