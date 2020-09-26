@@ -177,6 +177,35 @@ h2 {
     margin-bottom: 48px;
 }
 
+
+/* about */
+
+.btn-default {
+    border: 2px solid #FFF;
+    color: #FFF;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    border-radius: 8px;
+}
+
+.btn.btn-default:hover {
+    cursor: pointer;
+    color: #212529;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+}
+
+.glyphicon.glyphicon-save {
+    font-size: 20px;
+}
+
+.glyphicon.glyphicon-save span {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+
 @media screen and (min-width: 992px) {
     h1 {
         font-size: 64px;
