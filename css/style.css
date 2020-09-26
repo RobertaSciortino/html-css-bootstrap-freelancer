@@ -173,7 +173,8 @@ h2 {
     cursor: pointer;
 }
 
-.container.text-center {
+.container.text-center,
+.container.form {
     margin-bottom: 48px;
 }
 
@@ -204,6 +205,40 @@ h2 {
 .glyphicon.glyphicon-save span {
     font-family: 'Lato', sans-serif;
     font-size: 18px;
+}
+
+.form-group {
+    height: 90px;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.form-control {
+    border: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0);
+    font-size: 24px;
+    font-family:'Lato', sans-serif;
+    line-height: 1.5;
+    color: rgba(33, 37, 41);
+}
+
+.form-group.message {
+    height: 300px;
+}
+
+.btn-default {
+    background-color: #1abc9c;
+    font-family:'Lato', sans-serif;
+    line-height: 1.5;
+    color: #FFF;
+    font-size: 20px;
+    padding: 20px 30px;
+}
+
+.btn.btn-default:hover {
+    color: #fff;
+    background-color: #159a80;
+    border-color: #148f77;
 }
 
 @media screen and (min-width: 992px) {
