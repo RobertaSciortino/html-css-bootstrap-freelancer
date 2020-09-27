@@ -1,9 +1,9 @@
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6, p {
-    font-family: 'Lato', sans-serif;
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* navbar */
@@ -243,17 +243,30 @@ h2 {
     border-color: #148f77;
 }
 
+/* footer */
+
+footer .container {
+    margin-top: 50px;
+}
+
 footer .btn.btn-social {
     color: #FFF;
     font-size: 20px;
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     background-color: rgba(0,0,0,0);
     border: 2px solid #FFF;
     border-radius: 50%;
     padding: 6px 12px;
 }
 
+footer .btn.btn-social:not(:last-of-type) {
+    margin-right: 8px;
+}
+
+footer h3 {
+    margin-bottom: 20px;
+}
 a.start {
     color: #159a80;
 }
