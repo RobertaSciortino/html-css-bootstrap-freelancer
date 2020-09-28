@@ -253,17 +253,19 @@ h2 {
 
 label {
     position: absolute;
-    bottom: 100%;
+    bottom: 85%;
     left: 0;
     color:  #1abc9c;
     font-size: 14px;
     font-weight: 300;
-    visibility: hidden;
+    opacity: 0;
+    transition:  bottom 0.3s, opacity 0.3s;
 }
 
 input:focus + label,
 textarea:focus + label{
-    visibility: visible;
+    opacity: 1;
+    bottom: 100%;
 }
 
 /* footer */
