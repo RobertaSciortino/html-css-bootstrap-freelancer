@@ -7,8 +7,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* navbar */
-.navbar.navbar-default.navbar-fixed-top,
-footer {
+.navbar.navbar-default.navbar-fixed-top {
     background-color: #2C3E50;
     font-weight: 700;
     padding: 16px 0;
@@ -149,9 +148,7 @@ h2 {
 .big-plus {
     position: absolute;
     top: 0;
-    bottom: 0;
     left: 0;
-    right: 0;
     height: 100%;
     width: 100%;
     opacity: 0;
@@ -224,7 +221,7 @@ h2 {
     font-size: 24px;
     font-family:'Lato', sans-serif;
     line-height: 1.5;
-    color: rgba(33, 37, 41);
+    color: #495057;
 }
 
 .form-control, .form-control:focus {
@@ -269,9 +266,14 @@ textarea:focus + label{
 }
 
 /* footer */
+.contacts {
+    background-color: #2C3E50;
+}
 
-footer .container {
-    margin-top: 50px;
+footer .container.text-center {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 0;
 }
 
 footer .btn.btn-social {
@@ -292,9 +294,15 @@ footer .btn.btn-social:not(:last-of-type) {
 footer h3 {
     margin-bottom: 20px;
 }
+
 a.start {
     color: #159a80;
 }
+
+.contacts .row>* {
+    margin-bottom: 20px;
+}
+
 
 .copyright {
     background-color: #1A252F;
