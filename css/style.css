@@ -46,6 +46,11 @@ footer {
 .navbar-right a {
     font-size: 16;
 }
+
+#bs-example-navbar-collapse-1 a:hover {
+    color: #148f77;
+}
+
 /* main */
 main {
     width: 100%;
